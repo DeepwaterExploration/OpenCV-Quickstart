@@ -9,6 +9,8 @@ HEIGHT = 1080
 # used to set the pixel format to MJPEG/MJPG mode.
 MJPG = cv2.VideoWriter_fourcc(*'MJPG')
 
+# For H.264, see this: https://github.com/opencv/opencv-python/issues/100#issuecomment-394159998
+
 # -- DEVICE SETUP --
 exploreHD = cv2.VideoCapture(CAM_IDX)
 

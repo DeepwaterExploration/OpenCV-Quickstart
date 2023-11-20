@@ -9,6 +9,8 @@ const int HEIGHT = 1080;
 // used to set the pixel format to MJPEG/MJPG mode.
 const int MJPG = cv::VideoWriter::fourcc('M', 'J', 'P', 'G');
 
+// For H.264, see this: https://github.com/opencv/opencv-python/issues/100#issuecomment-394159998
+
 int main() {
 
     // -- DEVICE SETUP --
