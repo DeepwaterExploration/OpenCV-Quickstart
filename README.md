@@ -13,6 +13,7 @@ Example code for using DWE.ai cameras with OpenCV libraries.
 3. Read the `README.md` file in that folder for further details.
 
 ## Troubleshooting
+> :warning: ***Our customer service does not provide technical support for this repository.***
 
 If you encounter issues during the build or execution, please check the following:
 

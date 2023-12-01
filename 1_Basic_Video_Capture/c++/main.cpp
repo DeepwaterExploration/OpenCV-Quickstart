@@ -16,7 +16,7 @@ int main() {
     // -- DEVICE SETUP --
     cv::VideoCapture exploreHD = cv::VideoCapture(CAM_IDX, cv::CAP_V4L2); //V4L2 -> Video 4 Linux
 
-    // set to MJPEG mode, by default, idx 0 is YUYV
+    // set to MJPEG mode, by default idx 0 is YUYV
     // MJPG needs to be set, before resolution. Pixel format is always selected first
     exploreHD.set(cv::CAP_PROP_FOURCC, MJPG);
 

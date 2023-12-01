@@ -14,7 +14,7 @@ MJPG = cv2.VideoWriter_fourcc(*'MJPG')
 # -- DEVICE SETUP --
 exploreHD = cv2.VideoCapture(CAM_IDX)
 
-# set to MJPEG mode, by default, idx 0 is YUYV
+# set to MJPEG mode, by default idx 0 is YUYV
 # MJPG needs to be set, before resolution. Pixel format is always selected first
 exploreHD.set(cv2.CAP_PROP_FOURCC, MJPG)
 
