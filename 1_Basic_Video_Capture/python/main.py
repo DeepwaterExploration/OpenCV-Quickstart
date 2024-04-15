@@ -41,3 +41,6 @@ while(True):
     # press 'q' to quit
     if k == ord('q'):
         break
+    
+exploreHD.release()
+cv2.destroyAllWindows()

@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains a simple C++ program, `main.py`, designed to interface with an exploreHD camera and display the MJPEG frames from the camera in a window. This README file provides instructions on how to run the application.
+This repository contains a simple python program, `main.py`, designed to interface with an exploreHD camera and display the MJPEG frames from the camera in a window. This README file provides instructions on how to run the application.
 
 ## Prerequisites
 

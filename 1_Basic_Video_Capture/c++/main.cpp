@@ -42,5 +42,9 @@ int main() {
             break;
         }
     }
-    
+
+    exploreHD.release();
+    cv::destroyAllWindows();
+
+    return 0;
 }

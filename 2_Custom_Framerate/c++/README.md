@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains a simple C++ program, `main.cpp`, designed to interface with an exploreHD camera and display the MJPEG frames from the camera in a window. The project is configured using CMake, and this README file provides instructions on how to build and run the application.
+This repository contains a simple C++ program, `main.cpp`, designed to interface with an stellarHD camera and display the MJPEG frames from the camera in a window at a specified custom framerate. By using a higher hardware framerate, and sampling frames at your desired frequency, you can achieve a high-quality result. The project is configured using CMake, and this README file provides instructions on how to build and run the application.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ Once the build is successful, you can run the application by executing the follo
 ./main.bin
 ```
 
-This will launch the program, which will attempt to connect to the exploreHD camera and display the MJPEG frames in a window.
+This will launch the program, which will attempt to connect to the stellarHD camera and display the MJPEG frames in a window.
 
 ## Configuration
 
